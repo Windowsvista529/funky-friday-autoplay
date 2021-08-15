@@ -123,8 +123,8 @@ local fireSignal, rollChance do
     end
 end
 
-local map = { [0] = 'Left', [1] = 'Down', [2] = 'Up', [3] = 'Right', }
-local keys = { Up = Enum.KeyCode.Up; Down = Enum.KeyCode.Down; Left = Enum.KeyCode.Left; Right = Enum.KeyCode.Right; }
+local map = { [0] = 'A', [1] = 'S', [2] = 'K', [3] = 'L', }
+local keys = { A = Enum.KeyCode.A; S = Enum.KeyCode.S; K = Enum.KeyCode.K; L = Enum.KeyCode.L; }
 
 -- they are "weird" because they are in the middle of their Upper & Lower ranges 
 -- should hopefully make them more precise!
